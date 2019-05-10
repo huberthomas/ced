@@ -1486,6 +1486,6 @@ message PeriodicShuffleParameter {
   // Shuffle the input blob by changing the memory order of the data. 
   // (N, C, H, W) -> (N, C/n^2, nH, nW) 
   // This is used for sub-pixel convolution
-  optional uint32 group_size = 1;
-  optional uint32 num_output = 1;
+  optional uint32 group_size = 2;
+  optional uint32 num_output = 32;
 }
