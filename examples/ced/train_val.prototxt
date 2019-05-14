@@ -14,8 +14,8 @@ layer {
     mean_value: 122.67892
   }
   image_data_param {
-    root_folder: "/path/to/rot_folder/"
-    source: "/path/to/file_list"
+    root_folder: "../../../data/HED-BSDS/"
+    source: "../../../HED-BSDS/train_pair.lst"
     batch_size: 1
     shuffle: true
     new_height: 0
