@@ -1,12 +1,12 @@
 from __future__ import division
 import numpy as np
 import sys
-caffe_root = '/../../' 
-sys.path.insert(0, caffe_root + '/python')
+caffe_root = '../../' 
+sys.path.insert(0, caffe_root + 'python')
 import caffe
 
 
-base_weights = './hed_vgg16.caffemodel'
+base_weights = '../../../model/hed_vgg16.caffemodel'
 
 # init
 caffe.set_mode_gpu()
