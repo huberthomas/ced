@@ -15,11 +15,11 @@ layer {
   }
   image_data_param {
     root_folder: "../../../data/HED-BSDS/"
-    source: "../../../HED-BSDS/train_pair.lst"
+    source: "../../../data/HED-BSDS/train_pair.lst"
     batch_size: 1
     shuffle: true
-    new_height: 0
-    new_width: 0
+    new_height: 512
+    new_width: 512
   }
 }
 
