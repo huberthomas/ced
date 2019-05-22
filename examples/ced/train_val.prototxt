@@ -18,8 +18,8 @@ layer {
     source: "../../../data/HED-BSDS/train_pair.lst"
     batch_size: 1
     shuffle: true
-    new_height: 512
-    new_width: 512
+    new_height: 500
+    new_width: 500
   }
 }
 
