@@ -2,3 +2,4 @@ python/caffe/__pycache__
 python/caffe/pycaffe.pyc
 python/caffe/__init__.pyc
 examples/ced/hed_vgg16.caffemodel
+*.pyc
