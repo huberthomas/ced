@@ -40,7 +40,7 @@ def process(args):
 
     # copy base weights for fine-tuning
     solver.net.copy_from(args.baseWeights)
-    solver.step()
+    solver.solve()
 
 
 def main():

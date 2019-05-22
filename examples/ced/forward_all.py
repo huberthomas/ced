@@ -155,12 +155,9 @@ def processInputDir(args):
       edge += cv2.resize(sEdge, (w, h), interpolation=cv2.INTER_CUBIC).astype(np.float32)
 
 
-    if len(scales) > 1:
-      edge /= len(scales)
-
     # normalize values
     if edge.max() > 0:
-      edge /= edge.max()
+      edge /= (edge.max() * len(scales))
 
     end = time.time()
     diffTime = end-start
